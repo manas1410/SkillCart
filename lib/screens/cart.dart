@@ -1,8 +1,9 @@
+import 'package:animated_button/animated_button.dart';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:task_1_zairza/screens/widget.dart';
+import 'package:task_1_zairza/modals/appbars.dart';
 
-import 'details.dart';
+import '../modals/details.dart';
 class Cart extends StatefulWidget{
   const Cart({Key? key}) : super(key: key);
 
@@ -23,7 +24,7 @@ class _CartState extends State<Cart>{
                 SizedBox(height: 30,width: 10,),
                 SingleChildScrollView(
                   child: Container(
-                    child: Wrap(
+                    child: Column(
                       children: List.generate(detailsBox.length, (index) {
                         final details=detailsBox.get(index) as Details;
                         return Padding(
@@ -64,17 +65,13 @@ class _CartState extends State<Cart>{
                                           SizedBox(height: 30,),
                                           Text("\$3000",style: TextStyle(fontSize: 20,color:Colors.black),)
                                         ],
-                                      )
+                                      ),
 
 
                                     ],
                                   )
 
-                              )
-
-
-
-
+                              ),
                             ],
                           ),
                         );

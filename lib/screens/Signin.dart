@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
-import 'package:task_1_zairza/screens/widget.dart';
+import 'package:task_1_zairza/modals/appbars.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:animated_button/animated_button.dart';
 import 'package:google_sign_in/google_sign_in.dart';

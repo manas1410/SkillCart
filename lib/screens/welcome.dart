@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:task_1_zairza/screens/2_A.dart';
+import 'package:task_1_zairza/screens/2_B.dart';
 
 import 'Signin.dart';
 
@@ -15,12 +16,12 @@ class Welcome extends StatefulWidget{
 class _WelcomeState extends State<Welcome> {
   @override
   Widget build(BuildContext context) {
-
     Timer(
       Duration(seconds:4),
           () {
         Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (context) => Page2A()));
+            context, MaterialPageRoute(builder: (context) => Page2B())
+        );
       },
     );
     return Scaffold(

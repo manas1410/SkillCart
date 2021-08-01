@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:hive/hive.dart';
 import 'package:page_transition/page_transition.dart';
-import 'package:task_1_zairza/screens/widget.dart';
+import 'package:task_1_zairza/modals/appbars.dart';
 import 'package:task_1_zairza/screens/Signup.dart';
 import 'package:task_1_zairza/screens/Signin.dart';
 

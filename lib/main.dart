@@ -6,7 +6,7 @@ import 'package:task_1_zairza/screens/4.dart';
 import 'package:task_1_zairza/screens/7.dart';
 import 'package:task_1_zairza/screens/Signin.dart';
 import 'package:task_1_zairza/screens/Signup.dart';
-import 'package:task_1_zairza/screens/details.dart';
+import 'package:task_1_zairza/modals/details.dart';
 import 'package:task_1_zairza/screens/welcome.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';

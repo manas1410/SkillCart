@@ -1,10 +1,10 @@
 import 'package:animated_button/animated_button.dart';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:task_1_zairza/screens/widget.dart';
+import 'package:task_1_zairza/modals/appbars.dart';
 import 'package:task_1_zairza/screens/Signin.dart';
 
-import 'details.dart';
+import '../modals/details.dart';
 
 
 
@@ -96,17 +96,6 @@ class _Page7State extends State<Page7>{
                                   ),
 
                                 SizedBox(height: 10,width: 30,),
-                                AnimatedButton(
-                                  color: Color(0xff0D49E2),
-                                  width: 300,
-                                  child: Text("Buy Now",style: TextStyle(
-                                  fontSize: 23,
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold
-                                  )
-                                  ),
-                                  onPressed:(){},
-                                ),
 
                               ],
                             )

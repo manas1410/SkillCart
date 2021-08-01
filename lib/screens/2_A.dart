@@ -3,7 +3,7 @@ import 'package:hive/hive.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:task_1_zairza/screens/2_B.dart';
 import 'package:task_1_zairza/screens/7.dart';
-import 'package:task_1_zairza/screens/widget.dart';
+import 'package:task_1_zairza/modals/appbars.dart';
 class Page2A extends StatefulWidget{
   const Page2A({Key? key}) : super(key: key);
 
